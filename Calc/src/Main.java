@@ -28,11 +28,11 @@ public class Main {
             if ((inputValues[1].equals("1") ||  inputValues[1].equals("2") || inputValues[1].equals("3")
                     || inputValues[1].equals("4") || inputValues[1].equals("5") || inputValues[1].equals("6")
                     || inputValues[1].equals("7") || inputValues[1].equals("8") || inputValues[1].equals("9")
-                    || inputValues[1].equals("10") || inputValues[1].equals("0"))
+                    || inputValues[1].equals("10") )
                     && (inputValues[2].equals("1") ||  inputValues[2].equals("2") || inputValues[2].equals("3")
                     || inputValues[2].equals("4") || inputValues[2].equals("5") || inputValues[2].equals("6")
                     || inputValues[2].equals("7") || inputValues[2].equals("8") || inputValues[2].equals("9")
-                    || inputValues[2].equals("10") || inputValues[2].equals("0")))
+                    || inputValues[2].equals("10") ))
             {
                 x = Integer.parseInt(inputValues[1]);
                 y = Integer.parseInt(inputValues[2]);
